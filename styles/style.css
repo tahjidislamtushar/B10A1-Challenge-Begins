@@ -1,0 +1,10 @@
+/* All Elements of Body Section *Start* */
+
+.azeret-mono-<uniquifier> {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* All Elements of Body Section *End* */
