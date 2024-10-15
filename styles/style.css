@@ -6,15 +6,40 @@
 }
 
 /* .....Banner Section *Start*..... */
-.banner {
-  background-image: url(../assets/Hero-bg.png);
-  margin-top: 80px;
-  color: black;
-  height: 600px;
+.navbar {
+  margin: 36px 150px;
+  display: flex;
+  justify-content: space-between;
 
 }
 
+#nav-name {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#nav-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  border-radius: 8px;
+
+  padding: 17px 24px 17px 24px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .banner-container {
+  background-image: url(../assets/Hero-bg.png);
+  color: black;
+  height: 600px;
+
   display: flex;
   align-items: center;
   width: 100%;
@@ -41,7 +66,7 @@
 }
 
 #page-down-btn {
-  
+
   background-color: black;
   font-family: Azeret Mono;
   padding: 15px 20px;
@@ -50,6 +75,8 @@
   margin-top: 10px;
   font-size: 25px;
   font-weight: 500;
+  margin-bottom: 45px;
+  ;
 }
 
 
