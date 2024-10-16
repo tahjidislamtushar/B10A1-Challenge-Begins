@@ -187,10 +187,10 @@
   justify-content: space-between;
 }
 
-/* ------------------------------------- */
+/* -------------My Inspiration------------ */
 
 .my-inspiration {
-  margin: 90px 0;
+  margin-top: 90px;
 }
 
 #video {
@@ -199,6 +199,49 @@
   border-radius: 16px;
   padding: 32px;
 }
-#video-1{
+
+#video-1 {
   border-radius: 16px;
+}
+
+.my-current-target {
+  margin-top: 150px;
+}
+
+/* ----------------My Current Target------------------- */
+
+.grid {
+  display: flex;
+  gap: 24px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  text-align: left;
+}
+
+.html {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+
+.css {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+}
+
+.js {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+}
+
+.grid>h3 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.grid>p {
+  font-size: 16px;
+  font-weight: 400;
 }
