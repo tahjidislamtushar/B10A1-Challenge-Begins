@@ -84,7 +84,11 @@
 
 /* -------------------------------------------------------------------------------------------------------------- */
 
-/* .....Banner Section *End*..... */
+
+
+/* ............... Main Section *Start* ............... */
+
+/* ..... Why Web Development?? Section *Start* ..... */
 
 .alignment {
   margin: 74px 10%;
@@ -187,7 +191,10 @@
   justify-content: space-between;
 }
 
-/* -------------My Inspiration------------ */
+/* ..... Why Web Development?? Section *End* ..... */
+
+
+/* ..... My Inspiration Section *Start* ..... */
 
 .my-inspiration {
   margin-top: 90px;
@@ -208,7 +215,10 @@
   margin-top: 150px;
 }
 
-/* ----------------My Current Target------------------- */
+/* ..... My Inspiration Section *End* ..... */
+
+
+/* ..... My Current Target Section *Start* ..... */
 
 .grid {
   display: flex;
@@ -245,3 +255,15 @@
   font-size: 16px;
   font-weight: 400;
 }
+
+/* ..... My Current Target Section *End* ..... */
+
+/* ..... My Current Target Section *Start* ..... */
+
+
+
+/* ..... My Current Target Section *End* ..... */
+
+
+
+/* ............... Main Section *End* ............... */
