@@ -102,7 +102,11 @@
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   text-align: center;
-  gap: 24px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+
+
+  .text-field {}
 
 }
 
@@ -181,4 +185,20 @@
 
 .development-elements-2>.coding {
   justify-content: space-between;
+}
+
+/* ------------------------------------- */
+
+.my-inspiration {
+  margin: 90px 0;
+}
+
+#video {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+}
+#video-1{
+  border-radius: 16px;
 }
