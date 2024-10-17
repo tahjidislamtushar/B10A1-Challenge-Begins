@@ -76,7 +76,6 @@
   margin-top: 10px;
   font-size: 25px;
   font-weight: 500;
-  ;
 }
 
 
@@ -222,6 +221,7 @@
 
 .grid {
   display: flex;
+  justify-content: space-between;
   gap: 24px;
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
@@ -274,6 +274,7 @@
   padding: 64px 48px;
   display: block;
   text-align: center;
+  border-radius: 16px;
 }
 
 
@@ -289,7 +290,7 @@
   font-weight: 400;
 }
 
-.submit-field{
+.submit-field {
   margin-top: 24px;
   display: inline-flex;
   gap: 16px;
@@ -333,8 +334,43 @@
 /* ............... Main Section *End* ............... */
 
 
+
 /* ............... Footer Section *End* ............... */
 
+.footer-container {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  padding: 32px 10%;
 
+}
 
+.footer-elements {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.footer-elements>p {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.icons {
+  font-size: 36px;
+  display: flex;
+  gap: 24px;
+}
+
+#github {
+  color: rgb(22, 22, 20);
+  ;
+}
+
+#footer{
+  scroll-behavior:smooth;
+}
 /* ............... Footer Section *End* ............... */
